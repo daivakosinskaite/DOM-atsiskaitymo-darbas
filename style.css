@@ -1,0 +1,93 @@
+
+
+  
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+  }
+  
+  
+.page {/* puslapio pagrindiniai nustatymai */
+    font-family: Arial, sans-serif;
+    background-color: #92e284;
+    background-image: url(shutterstock_1045743757.jpg);
+    padding: 20px;
+    max-width: 70%; 
+    margin: 0 auto; 
+    display: flex; 
+    align-items: center; 
+    flex-direction: column; 
+  }
+  
+  
+  .page__title {
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .form {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .form__input {
+    padding: 10px;
+    border: 1px solid #3f3e3e;
+    border-radius: 5px;
+    margin-right: 10px;
+  }
+  
+  .form__button {
+    padding: 10px 20px;
+    background-color: #f7df08;
+    color: rgb(5, 5, 5);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+   
+  .task-table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #fff;
+  }
+  
+  .task-table__header {
+    padding: 10px;
+    background-color: #ebe704;
+    color: rgb(14, 13, 13);
+    text-align: left;
+  }
+  
+  .task-table__body {
+    border-top: 1px solid #ddd;
+  }
+  
+  .task-table__cell {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .task-table__delete-button {
+    background-color: #790814;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    cursor: pointer;
+  }
+  
+
+
+
+
+
+@media only screen and (max-width: 700px) {
+  .form {
+  display: flex;
+  flex-direction: column;
+}
+}

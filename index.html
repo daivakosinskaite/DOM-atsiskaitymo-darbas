@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>To Do List</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="page">
+    <br><br><br>
+    
+  <h1 class="page__title">Užduočių sąrašas</h1>
+  <div class="form">
+    <input type="text" id="taskInput" class="form__input" placeholder="Nauja užduotis">
+    <input type="date" id="dateInput" class="form__input"> 
+    <button onclick="addTask()" class="form__button">+</button>
+  </div>
+  <table class="task-table">
+    <thead>
+      <tr>
+        <th class="task-table__header">Statusas</th>
+        <th class="task-table__header">Užduotis</th>
+        <th class="task-table__header">Data</th>
+        <th class="task-table__header">Ištrinti</th>
+      </tr>
+    </thead>
+    <tbody id="taskList" class="task-table__body"></tbody>
+  </table>
+
+  <script src="script.js"></script>
+</body>
+</html>
